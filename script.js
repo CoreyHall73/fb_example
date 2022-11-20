@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded' , () => {
 
     // Jump logic
     function jump() {
-        birdBottom += 50 // Adds 50 pixels to variable birdBottom
+        if (birdBottom < 480) birdBottom += 50 // Adds 50 pixels to variable birdBottom only if it is not closer than 20 pixels from top of game container
         bird.style.bottom = birdBottom + 'px' // Adds value of 'birdBottom' in pixels to bottom of bird div when function is invoked
     }
     // Event listener for jump function
