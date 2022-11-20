@@ -23,3 +23,10 @@
     position: absolute; /* This makes the ground div relative to its parent element */
     top: 580px; /* give spcaing between top of element, and top of parent element the div is in */
 }
+
+.bird {
+    background-color: yellow;
+    height: 45px;
+    width: 60px;
+    position: absolute; 
+}
